@@ -12,6 +12,12 @@
 
 ![image](src/7.JPG)
 
+En este caso, el resultado del cómputo de los embeddings es una matriz de tipo float32, donde cada fila representa el embedding de una frase en la lista sentences. Cada embedding es un vector numérico de alta dimensionalidad.
+
+La dimensionalidad específica de los embeddings depende del modelo pre-entrenado utilizado. En este caso, el modelo "all-MiniLM-L6-v2"
+
+Cada valor numérico en el embedding representa la fuerza o importancia de una cierta característica o atributo de la frase en el espacio vectorial. 
+
 ### Base de datos Vectoriales
 ![image](src/2.JPG)
 
