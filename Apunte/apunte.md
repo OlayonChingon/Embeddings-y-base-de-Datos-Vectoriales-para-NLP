@@ -34,4 +34,6 @@ de sus vectores, utilizando algoritmos como la similitud del coseno o la distanc
 Las bases de datos vectoriales se utilizan en diversas aplicaciones, como sistemas de recomendación, búsqueda de información, análisis de datos científicos y minería de datos. Son especialmente útiles cuando se trata de 
 datos que tienen una estructura vectorial inherente y cuando se requiere realizar consultas basadas en similitud o proximidad.
 
+### Proyecto del curso
 
+![image](src/3.JPG)
