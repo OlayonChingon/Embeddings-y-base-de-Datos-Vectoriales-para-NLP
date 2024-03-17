@@ -37,3 +37,56 @@ datos que tienen una estructura vectorial inherente y cuando se requiere realiza
 ### Proyecto del curso
 
 ![image](src/3.JPG)
+
+### Métodos tradicionales: One-Hot Encoding y TF-IDF
+
+![image](src/9.JPG)
+
+Mapea cada palabra a un vector, no tengo forma de comparacion de palabras y es muy extenso el mapeo
+
+![image](src/8.JPG)
+
+![image](src/10.JPG)
+
+### TF-IDF
+
+![image](src/12.JPG)
+
+ Busca las palabras mas revelantes o inusuales en varios corpus
+ 
+ TF-IDF se basa en dos conceptos principales:
+
+Frecuencia de término (TF - Term Frequency): Mide la frecuencia con la que aparece una palabra en un documento específico. Cuanto más frecuente es una palabra en un documento, mayor será su puntuación de TF.
+
+Frecuencia inversa de documento (IDF - Inverse Document Frequency): Mide la importancia de una palabra en el contexto de una colección de documentos. Se calcula como el logaritmo del número total de documentos dividido por el número de documentos que contienen la palabra en cuestión. Una palabra común que aparece en muchos documentos tendrá un IDF más bajo, mientras que una palabra menos común tendrá un IDF más alto.
+
+
+![image](src/13.JPG)
+
+![image](src/14.JPG)
+
+![image](src/15.JPG)
+
+![image](src/16.JPG)
+
+![image](src/19.JPG)
+
+![image](src/20.JPG)
+
+![image](src/21.JPG)
+
+La puntuación TF-IDF se calcula multiplicando la puntuación de TF de una palabra por su puntuación de IDF. 
+
+La idea es determinar las palbras que menos se repiten y menos frecuencia tienen que tiene mas relevancia en el texto comparadas con palabras que se repiten mucho y tienen menos relevancia
+
+
+![image](src/22.JPG)
+
+La comparación de palabras utilizando TF-IDF implica calcular las puntuaciones TF-IDF para cada palabra en una colección de documentos y luego comparar las puntuaciones para determinar la relevancia de las palabras en diferentes contextos o documentos.
+
+Desventjas de TF-IDF:
+1- No hay orden de aparicion de palbras
+
+2 - no permite compara palabras con otras
+
+3 - dificil de calcular
